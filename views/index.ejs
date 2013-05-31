@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="impress">
+        <div id="s01" class="step slide" data-x="-1500" data-y="-1500">
+          <h2 class='lightblue'>@nielsrobin</h2>
+          <h1><span class='blue'>Node.js</span> + <span class='green'>Webmatrix</span> + <span class='red'>Azure</span></h1>
+        </div>
+        <div id="s02" class="step slide" data-x="0" data-rotate='90' data-y="-1000">
+          <h1><span class='grey'>Niels</span> Robin Aagaard</h1>
+          <h2 class='lightblue'>@nielsrobin</h2>
+          <h2 class='lightblue'>github.com/nielsrobin</h2>
+          <br /><br />
+          <h1 class='green'>Background</h1>
+          <h2>Head of IT @ Trollbeads</h2>
+          <h2>Technology enthusiast</h2>
+          <h2>Whiskey lover</h2>
+        </div>
+        <div id="s03" class="step slide" data-x="0" data-y="-3000">
+          <img width='900' src='http://distilleryimage6.s3.amazonaws.com/c70be0dcd74111e1b46022000a1cdc13_7.jpg' />
+        </div>
+        <div id="s04" class="step slide" data-x="0" data-y="-4000">
+          <img width='900' src='http://distilleryimage3.s3.amazonaws.com/23c037f2d0c511e1923d22000a1cdd3a_7.jpg' />
+        </div>
+        <div id="s05" class="step slide" data-x="0" data-y="-5000">
+          <img width='900' src='http://distilleryimage2.s3.amazonaws.com/06293006bfd811e29b8d22000aaa0a64_7.jpg' />
+        </div>
+        <div id="s06" class="step slide" data-x="0" data-y="-6000">
+          <img src='img/toys.png' />
+        </div>
+
+        <!-- node bit -->
+
+        <div id="s07" class="step slide" data-x="3000" data-y="-12000" data-scale='10'>
+          <h1 class='blue'>Node.js</h1>
+        </div>
+        <div id="s10" class="step slide" data-x="1500" data-y="-4000" data-rotate-x='90'>
+          <h1 class='blue'>Node.js</h1>
+          <pre class="prettyprint">var http = require('http');
+
+http.createServer(function (req, res) {
+
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+
+}).listen(1337, '127.0.0.1');
+
+console.log('Server running at http://127.0.0.1:1337/');</pre>
+        </div>
+        <div id="s11" class="step slide" data-x="1500" data-y="-3000">
+          <h1>Now I can write <span class='blue'>Javascript</span> server-side</h1>
+        </div>
+        <div id="s12" class="step slide" data-x="1500" data-y="-2000">
+          <h1>A fantastic and <span class='green'>open</span> community</h1>
+        </div>
+        <div id="s13" class="step slide" data-x="1500" data-y="-1000">
+          <h1><span class='red'>npm</span> to the rescue</h1>
+          <p><a href='http://caines.ca/blog/programming/the-node-js-community-is-quietly-changing-the-face-of-open-source/'>Gregg Caines</a> did some research.</p>
+          <pre class="prettyprint">
+python:  29,720 packages / 22 years  = 1351 packages per year
+ruby:    54,385 packages / 18 years  = 3022 packages per year
+node.js: 26,966 packages / 4 years   = 6742 packages per year
+
+And I added Nuget to the mix
+.net:    13,064 packages / 2,5 years = 5225 packages per year
+          </pre>
+        </div>
+        <div id="s14" class="step slide" data-x="1500" data-y="0">
+          <h1>Credit goes to <span class='red'>npm</span> and <span class='green'>github</span>, as well as <span class='blue'>nuget</span> and <span class='green'>codeplex</span>.</h1>
+        </div>
+        <div id="s15" class="step slide" data-x="1500" data-rotate='90' data-y="2000">
+          <img src='img/nuget.png' />
+        </div>
+        <div id="s16" class="step slide" data-x="1500" data-rotate='90' data-y="4000">
+          <img src='img/npm.png' />
+        </div>
+        <div id="s17" class="step slide" data-x="1500" data-rotate='90' data-y="6000">
+          <img src='img/nuget2.png' />
+        </div>
+        <div id="s18" class="step slide" data-x="1500" data-rotate='90' data-y="8000">
+          <img src='img/npm2.png' />
+        </div>
+        <div id="s20" class="step slide" data-x="-1000" data-y="0" data-scale='10'>
+          <h1>Demo <span class='green'>time</span></h1>
+        </div>
+        <div id="s21" class="step slide" data-x="3000" data-y="0">
+          <h1>So I've got this web cam at home...</h1>
+          <img src='img/axis.jpg' />
+        </div>
+        <div id="s22" class="step slide" data-x="3000" data-y="-1000">
+          <h1>And a <span class='red'>philip's hue</span></h1>
+          <img width='600' src='img/hue-box-open.jpg' />
+        </div>
+        <div id="s23" class="step slide" data-x="4500" data-y="-1000">
+          <h1 class='red'>Real Demo</h1>
+        </div>
+        <div id="s24" class="step slide" data-x="4500" data-y="-2000">
+          <h1>Putting it all <span class='green'>together</span></h1>
+          <img src='img/project.jpg' />
+        </div>
+
+        <!-- azure bit -->
+
+        <div id="s25" class="step slide" data-x="7000" data-y="-4000" data-scale='10'>
+          <h1 class='blue'>Azure</h1>
+        </div>
+
+        <div id="s31" class="step slide" data-x="-1500" data-y="0">
+          <h1>Why should <span class='red'>I</span> care?</h1>
+        </div>
+        <div id="s32" class="step slide" data-x="-1500" data-y="1000">
+          <h1>But aren't there <span class='red'>great</span>/<span class='blue'>lot's of</span> alternatives?</h1>
+          <p>nodejitzu, joyent, heroku, appharbour, ...</p>
+        </div>
+        <div id="s33" class="step slide" data-x="-1500" data-y="2000">
+          <h1>1. Seamless <span class='red'>deployment</span></h1>
+          <p>Even if you're not a git-expert</p>
+        </div>
+        <div id="s34" class="step slide" data-x="-1500" data-y="3000">
+          <img width='900' src='img/azure1.png' />
+        </div>
+        <div id="s35" class="step slide" data-x="-1500" data-y="4000">
+          <img width='900' src='img/azure2.png' />
+        </div>
+        <div id="s36" class="step slide" data-x="-1500" data-y="5000">
+          <h1>2. Lot's of <span class='blue'>data</span> storing options</h1>
+          <p>SQL, tables (key/value store), blobs (binary data), queue, mongodb, </p>
+        </div>
+        <div id="s39" class="step slide" data-x="-1500" data-y="6000">
+          <h1>3. <span class='green'>Growing</span> app store</h1>
+          <p>Service busses for queue, topic, relay or notification hubs</p>
+        </div>
+        <div id="s40" class="step slide" data-x="-1500" data-y="7000">
+          <h1>4. BizTalk in the <span class='blue'>cloud</span></h1>
+          <p>Service busses for queue, topic, relay or notification hubs</p>
+        </div>
+        <div id="s41" class="step slide" data-x="-1500" data-y="8000">
+          <h1>5. <span class='green'>Everything</span> is self service</h1>
+          <p>And you pay as you go.</p>
+        </div>        
+        <div id="s42" class="step slide" data-x="9000" data-y="3000" data-scale='10'>
+          <h1>Let's have a <span class='red'>look</span></h1>
+        </div>
+
+        <!-- webmatrix bit -->
+     
+        <div id="s50" class="step slide" data-x="-10000" data-y="5000" data-scale='10' data-rotate='90'>
+          <h1><span class='red'>Webmatrix</span></h1>
+        </div>        
+        <div id="s51" class="step slide" data-x="-14000" data-y="0">
+          <h1>Not just <span class='blue'>Visual Studio's</span> little brother</h1>
+        </div>      
+        <div id="s52" class="step slide" data-x="-14000" data-y="-1000">
+          <h1>Scott Hanselman:<br/> "<span class='green'>The future of the cloud is open and it’s a hybrid</span>"</h1>
+        </div>
+        <div id="s53" class="step slide" data-x="-14000" data-y="-2000">
+          <img width='900' src='img/wm1.png' />
+        </div>
+        <div id="s54" class="step slide" data-x="-14000" data-y="-3000">
+          <img width='900' src='img/wm2.png' />
+        </div>
+        <div id="s55" class="step slide" data-x="-14000" data-y="-4000">
+          <h1>Let's take it for a <span class='red'>spin</span></h1>
+        </div>
+
+        <!-- end bit -->
+
+        <div id="s100" class="step slide" data-x="-1500" data-y="-5000" data-scale='20'>
+          <h1>Thanks, <span class='green'>Questions</span></h1>
+          <h2 class='lightblue'>@nielsrobin</h2>
+          <h2 class='lightblue'>github.com/nielsrobin</h2>
+        </div>
+    </div>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/impress.js"></script>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
