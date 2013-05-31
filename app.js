@@ -17,33 +17,4 @@ app.configure(function(){
 
 app.get('/', function(req, res){ res.render('index'); });
 
-/*
-var fs = require('fs');
-var vapix = require('vapix');
-
-var options = {
-	address: 'kzw.dk',
-	port: '333',
-	username: 'root',
-	password: 'np1fumba',	
-    resolution: '640x480',
-    compression: 30,
-    rotation: 0
-}
-
-var camera = new vapix.Camera(options);
-
-app.get('/axis', function(req, res){ 
-
-	camera.requestImage(options, function(err, data) {
-	    if (err) throw err;
-
-	    fs.writeFile("./public/img/out.jpg", data, function(err) {
-	        if (err) throw err;
-	    });
-	});
-
-});
-*/
-
 server.listen(process.env.PORT || 88);
